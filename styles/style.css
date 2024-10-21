@@ -1,0 +1,61 @@
+:root {
+  --black-color: #000;
+  --white-color: #fff;
+  --yellow-color: #ffc107;
+  --gray-color: #eaeaea;
+}
+
+body {
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.fullwidth {
+  width: 100vw;
+  transform: translateX(-50%);
+  position: relative;
+  left: 50%;
+}
+
+.contacts-block {
+  background-color: var(--black-color);
+}
+
+.contacts {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 45px 0;
+  color: var(--white-color);
+}
+
+.phone-block {
+  display: flex;
+  gap: 8px;
+  font-size: 20px;
+}
+
+.phone-number {
+  text-decoration: underline;
+  text-underline-offset: 6px;
+}
+
+.button {
+  background-color: var(--yellow-color);
+}
+
+.application-button {
+  border-radius: 62px;
+  width: 254px;
+  height: 63px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--black-color);
+  text-decoration: none;
+  font-size: 22px;
+}
