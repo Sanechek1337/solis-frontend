@@ -6,20 +6,30 @@
     <title>Solis</title>
     <link rel="stylesheet" href="./styles/normalize.css" />
     <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
-    <header class="header container">
-      <div class="contacts-block fullwidth">
+    <header class="header">
+      <div class="contacts-block">
         <div class="contacts container">
           <div class="phone-block">
             <span class="city">Астана</span>
-            <span class="phone-number">+7 (708) 425-30-33</span>
+            <a class="phone-number" href="tel:+77084253033"
+              >+7 (708) 425-30-33</a
+            >
           </div>
 
           <div class="phone-block">
             <span class="city">Алматы</span>
-            <span class="phone-number">+7 (708) 425-30-33</span>
+            <a class="phone-number" href="tel:+77084253033"
+              >+7 (708) 425-30-33</a
+            >
           </div>
 
           <a class="button application-button" href="#application">
@@ -34,9 +44,34 @@
         </div>
       </div>
 
-      <div class="header-block">
-        <a href="logo"></a>
+      <div class="header-block-bg">
+        <div class="header-block container">
+          <a href="">
+            <img src="./assets/img/logo.svg" alt="solis partners logo" />
+          </a>
+
+          <nav>
+            <ul class="nav-list">
+              <li><a class="nav-link" href="">О нас</a></li>
+              <li><a class="nav-link" href="">Команда</a></li>
+              <li><a class="nav-link" href="">Новости</a></li>
+              <li><a class="nav-link" href="">Услуги</a></li>
+              <li><a class="nav-link" href="">Отзывы</a></li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="solis container">
+          <h1 class="main-title">• Solis partners •</h1>
+          <h2 class="subtitle solis-subtitle">Передовые решения</h2>
+
+          <a class="button main-button" href="#application">
+            Получить коммерческое предложение
+          </a>
+        </div>
       </div>
     </header>
+
+    <main></main>
   </body>
 </html>
