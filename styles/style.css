@@ -3,6 +3,7 @@
   --white-color: #fff;
   --yellow-color: #ffc107;
   --gray-color: #eaeaea;
+  --red-color: #9d0000;
   --font-family: "Montserrat", sans-serif;
 }
 
@@ -255,4 +256,70 @@ main {
   font-size: 16px;
   line-height: 120%;
   font-weight: 500;
+}
+
+.team-block {
+  width: 100%;
+}
+
+.title-underline {
+  border-bottom: 3px solid var(--yellow-color);
+}
+
+.tab-group {
+  width: 300px;
+  margin: 40px auto 0;
+  display: flex;
+  border: 1px solid #000;
+}
+
+.tab {
+  flex: 1;
+  text-align: center;
+  padding: 10px;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition:
+    background-color 0.3s,
+    color 0.3s;
+}
+
+.tab.active {
+  background-color: #000;
+  color: white;
+}
+
+.tab:not(.active) {
+  background-color: #fff;
+  color: black;
+}
+
+.tab:hover {
+  opacity: 0.8; /* Легкий эффект при наведении */
+}
+
+.teammates {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.teammate-info {
+  margin-top: 16px;
+  padding: 0 0 10px 10px;
+  border-left: 2px solid var(--red-color);
+  text-transform: uppercase;
+}
+
+.teammate-name {
+  font-weight: 700;
+}
+
+.teammate-position {
+  margin-top: 8px;
 }
