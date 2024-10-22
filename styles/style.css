@@ -84,7 +84,7 @@ body {
   text-decoration: none;
 }
 
-.application-button {
+.header-application-button {
   border-radius: 62px;
   width: 220px;
   height: 40px;
@@ -407,4 +407,60 @@ main {
   font-weight: 800;
   font-size: 20px;
   line-height: 140%;
+}
+
+.partners-list {
+  margin-top: 40px;
+  display: flex;
+  gap: 20px;
+}
+
+.application-block-full {
+  padding: 60px 0 120px;
+  background: rgba(236, 236, 236, 0.56);
+}
+
+.application-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.application-subtitle {
+  margin-top: 10px;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.application-form {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  max-width: 600px;
+  width: 100%;
+}
+
+.form-input {
+  padding: 20px 40px;
+  border: 1px solid var(--black-color);
+}
+
+.button-block {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 6px;
+}
+
+.application-description {
+  font-size: 10px;
+}
+
+.application-button {
+  border: none;
+  color: var(--white-color);
+  font-size: 25px;
+  text-transform: uppercase;
+  padding: 20px 0;
 }
