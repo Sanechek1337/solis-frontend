@@ -187,7 +187,8 @@ main {
 }
 
 .cases,
-.services {
+.services,
+.advantages {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -226,7 +227,7 @@ main {
   max-width: 100%;
   height: 100%;
   object-fit: contain;
-  object-position: center center;
+  object-position: center;
 }
 
 .wrap {
@@ -322,4 +323,33 @@ main {
 
 .teammate-position {
   margin-top: 8px;
+  font-weight: 500;
+}
+
+.advantage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.advantage-icon {
+  max-width: 120px;
+  max-height: 120px;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 2px solid var(--yellow-color);
+  padding: 16px;
+}
+
+.advantage-icon img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+}
+
+.advantage-text {
+  max-width: 320px;
 }
