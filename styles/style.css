@@ -97,7 +97,7 @@ body {
 }
 
 .header-block-bg {
-  background: no-repeat center/cover url("../assets/img/main-background.png");
+  background: no-repeat center/cover url("../assets/img/main-background.jpg");
 }
 
 .header-block {
@@ -160,7 +160,8 @@ nav {
 .main-button {
   display: inline-block;
   margin-top: 60px;
-  color: var(--white-color);
+  color: var(--black-color);
+  font-weight: 700;
   padding: 30px;
   border-radius: 8px;
 }
@@ -187,6 +188,10 @@ main {
   text-align: center;
 }
 
+.cases-block {
+  width: 100%;
+}
+
 .cases,
 .services,
 .advantages,
@@ -201,12 +206,13 @@ main {
 
 .case-card {
   max-width: 480px;
-  padding: 36px 30px 50px;
-  display: flex;
+  padding: 36px 20px 50px;
+  display: flex !important;
   justify-content: space-between;
   align-items: center;
   background: linear-gradient(240deg, var(--gray-color) 50%, var(--yellow-color) 50%);
   border-radius: 8px;
+  cursor: pointer;
 }
 
 .case-info {
@@ -467,7 +473,7 @@ main {
 }
 
 .footer-bg {
-  background: no-repeat center/cover url("../assets/img/main-background.png");
+  background: no-repeat center/cover url("../assets/img/footer-bg.jpg");
 }
 
 .footer {
@@ -533,4 +539,11 @@ main {
 .text-underline {
   text-decoration: underline;
   text-underline-offset: 4px;
+}
+
+/* swiper */
+
+.swiper {
+  width: 100%;
+  margin-top: 60px;
 }
