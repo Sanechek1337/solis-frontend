@@ -1,13 +1,32 @@
-// Получаем все вкладки
 const tabs = document.querySelectorAll(".tab");
 
-// Добавляем обработчик клика для каждой вкладки
 tabs.forEach((tab) => {
   tab.addEventListener("click", () => {
-    // Удаляем класс active у всех вкладок
     tabs.forEach((t) => t.classList.remove("active"));
 
-    // Добавляем класс active к нажатой вкладке
     tab.classList.add("active");
   });
+});
+
+var swiper = new Swiper(".casesSwiper", {
+  slidesPerView: 1,
+  spaceBetween: 30,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+  breakpoints: {
+    640: {
+      slidesPerView: 1,
+      spaceBetween: 20,
+    },
+    768: {
+      slidesPerView: 2,
+      spaceBetween: 40,
+    },
+    1024: {
+      slidesPerView: 3,
+      spaceBetween: 50,
+    },
+  },
 });
