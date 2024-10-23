@@ -31,7 +31,7 @@ const casesSwiper = new Swiper(".casesSwiper", {
   },
 });
 
-const sevricesSwiper = new Swiper(".sevricesSwiper", {
+const servicesSwiper = new Swiper(".servicesSwiper", {
   slidesPerView: 1,
   spaceBetween: 30,
   pagination: {
@@ -45,9 +45,13 @@ const sevricesSwiper = new Swiper(".sevricesSwiper", {
     },
     768: {
       slidesPerView: 2,
-      spaceBetween: 40,
+      spaceBetween: 30,
     },
     1024: {
+      slidesPerView: 2,
+      spaceBetween: 40,
+    },
+    1440: {
       slidesPerView: 3,
       spaceBetween: 50,
     },
@@ -62,6 +66,9 @@ const teammatesSwiper = new Swiper(".teammatesSwiper", {
     clickable: true,
   },
   breakpoints: {
+    320: {
+      slidesPerView: 1,
+    },
     500: {
       slidesPerView: 2,
       spaceBetween: 20,
@@ -128,20 +135,20 @@ const feedbackSwiper = new Swiper(".feedbackSwiper", {
 });
 
 const partnersSwiper = new Swiper(".partnersSwiper", {
-  slidesPerView: 1,
+  slidesPerView: 2,
   spaceBetween: 30,
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
   },
   breakpoints: {
-    640: {
-      slidesPerView: 1,
-      spaceBetween: 20,
+    425: {
+      slidesPerView: 2,
+      spaceBetween: 40,
     },
     768: {
       slidesPerView: 4,
-      spaceBetween: 30,
+      spaceBetween: 50,
     },
     1024: {
       slidesPerView: 4,
