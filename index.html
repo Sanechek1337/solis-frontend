@@ -5,13 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Solis</title>
     <link rel="stylesheet" href="./styles/normalize.css" />
-    <link rel="stylesheet" href="./styles/style.css" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
   </head>
 
   <body>
@@ -73,64 +78,153 @@
     </header>
 
     <main>
-      <section class="cases-block">
+      <section class="cases-block container">
         <h2 class="title">Кейсы</h2>
 
-        <div class="cases">
-          <div class="case-card">
-            <div class="case-info">
-              <span class="case-date"> 02.03.2024 </span>
+        <div class="swiper casesSwiper">
+          <div class="swiper-wrapper">
+            <div class="case-card swiper-slide">
+              <div class="case-info">
+                <span class="case-date"> 02.03.2024 </span>
 
-              <p class="case-text">
-                Кейс победит Транс. Вопрос взыскания задолженности
-              </p>
+                <p class="case-text">
+                  Кейс победит Транс. Вопрос взыскания задолженности
+                </p>
+              </div>
+
+              <div class="case-partner-img">
+                <img src="./assets/img/partner-logo.svg" alt="partner logo" />
+              </div>
             </div>
 
-            <div class="case-partner-img">
-              <img src="./assets/img/partner-logo.svg" alt="partner logo" />
-            </div>
-          </div>
+            <div class="case-card swiper-slide">
+              <div class="case-info">
+                <span class="case-date"> 02.03.2024 </span>
 
-          <div class="case-card">
-            <div class="case-info">
-              <span class="case-date"> 02.03.2024 </span>
+                <p class="case-text">
+                  Кейс победит Транс. Вопрос взыскания задолженности
+                </p>
+              </div>
 
-              <p class="case-text">
-                Кейс победит Транс. Вопрос взыскания задолженности
-              </p>
-            </div>
-
-            <div class="case-partner-img">
-              <img src="./assets/img/partner-logo.svg" alt="partner logo" />
-            </div>
-          </div>
-
-          <div class="case-card">
-            <div class="case-info">
-              <span class="case-date"> 02.03.2024 </span>
-
-              <p class="case-text">
-                Кейс победит Транс. Вопрос взыскания задолженности
-              </p>
+              <div class="case-partner-img">
+                <img src="./assets/img/partner-logo.svg" alt="partner logo" />
+              </div>
             </div>
 
-            <div class="case-partner-img">
-              <img src="./assets/img/partner-logo.svg" alt="partner logo" />
+            <div class="case-card swiper-slide">
+              <div class="case-info">
+                <span class="case-date"> 02.03.2024 </span>
+
+                <p class="case-text">
+                  Кейс победит Транс. Вопрос взыскания задолженности
+                </p>
+              </div>
+
+              <div class="case-partner-img">
+                <img src="./assets/img/partner-logo.svg" alt="partner logo" />
+              </div>
+            </div>
+            <div class="case-card swiper-slide">
+              <div class="case-info">
+                <span class="case-date"> 02.03.2024 </span>
+
+                <p class="case-text">
+                  Кейс победит Транс. Вопрос взыскания задолженности
+                </p>
+              </div>
+
+              <div class="case-partner-img">
+                <img src="./assets/img/partner-logo.svg" alt="partner logo" />
+              </div>
+            </div>
+            <div class="case-card swiper-slide">
+              <div class="case-info">
+                <span class="case-date"> 02.03.2024 </span>
+
+                <p class="case-text">
+                  Кейс победит Транс. Вопрос взыскания задолженности
+                </p>
+              </div>
+
+              <div class="case-partner-img">
+                <img src="./assets/img/partner-logo.svg" alt="partner logo" />
+              </div>
+            </div>
+            <div class="case-card swiper-slide">
+              <div class="case-info">
+                <span class="case-date"> 02.03.2024 </span>
+
+                <p class="case-text">
+                  Кейс победит Транс. Вопрос взыскания задолженности
+                </p>
+              </div>
+
+              <div class="case-partner-img">
+                <img src="./assets/img/partner-logo.svg" alt="partner logo" />
+              </div>
             </div>
           </div>
         </div>
       </section>
 
-      <section class="services-block">
+      <section class="services-block container">
         <div class="section-title">
           <img src="./assets/img/icons/arrow-left.svg" alt="arrow-left" />
           <h2 class="title">Услуги</h2>
           <img src="./assets/img/icons/arrow-right.svg" alt="arrow right" />
         </div>
 
-        <div class="services">
-          <div class="wrap">
-            <div class="service">
+        <div class="swiper servicesSwiper">
+          <div class="swiper-wrapper">
+            <div class="service swiper-slide">
+              <div class="service-info">
+                <div class="service-title">Проверка рекламных материалов</div>
+                <div class="service-arrow">
+                  <img
+                    src="./assets/img/icons/arrow-right-white.svg"
+                    alt="arrow right"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div class="service swiper-slide">
+              <div class="service-info">
+                <div class="service-title">Проверка рекламных материалов</div>
+                <div class="service-arrow">
+                  <img
+                    src="./assets/img/icons/arrow-right-white.svg"
+                    alt="arrow right"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div class="service swiper-slide">
+              <div class="service-info">
+                <div class="service-title">Проверка рекламных материалов</div>
+                <div class="service-arrow">
+                  <img
+                    src="./assets/img/icons/arrow-right-white.svg"
+                    alt="arrow right"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div class="service swiper-slide">
+              <div class="service-info">
+                <div class="service-title">Проверка рекламных материалов</div>
+                <div class="service-arrow">
+                  <img
+                    src="./assets/img/icons/arrow-right-white.svg"
+                    alt="arrow right"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div class="service swiper-slide">
               <div class="service-info">
                 <div class="service-title">Проверка рекламных материалов</div>
                 <div class="service-arrow">
@@ -142,34 +236,10 @@
               </div>
             </div>
           </div>
-
-          <div class="service">
-            <div class="service-info">
-              <div class="service-title">Проверка рекламных материалов</div>
-              <div class="service-arrow">
-                <img
-                  src="./assets/img/icons/arrow-right-white.svg"
-                  alt="arrow right"
-                />
-              </div>
-            </div>
-          </div>
-
-          <div class="service">
-            <div class="service-info">
-              <div class="service-title">Проверка рекламных материалов</div>
-              <div class="service-arrow">
-                <img
-                  src="./assets/img/icons/arrow-right-white.svg"
-                  alt="arrow right"
-                />
-              </div>
-            </div>
-          </div>
         </div>
       </section>
 
-      <section class="team-block">
+      <section class="team-block container">
         <h2 class="title title-underline">Наша команда</h2>
 
         <div class="tab-group">
@@ -177,117 +247,185 @@
           <div class="tab">ALMATY</div>
         </div>
 
-        <div class="teammates">
-          <div class="teammate">
-            <div class="teammate-img">
-              <img src="./assets/img/teammate-img.png" alt="photo" />
+        <div class="swiper teammatesSwiper">
+          <div class="swiper-wrapper">
+            <div class="teammate swiper-slide">
+              <div class="teammate-img">
+                <img src="./assets/img/teammate-img.png" alt="photo" />
+              </div>
+
+              <div class="teammate-info">
+                <h4 class="teammate-name">Чингис Оралбаев</h4>
+                <h5 class="teammate-position">Старший Юрист</h5>
+              </div>
             </div>
 
-            <div class="teammate-info">
-              <h4 class="teammate-name">Чингис Оралбаев</h4>
-              <h5 class="teammate-position">Старший Юрист</h5>
-            </div>
-          </div>
+            <div class="teammate swiper-slide">
+              <div class="teammate-img">
+                <img src="./assets/img/teammate-img.png" alt="photo" />
+              </div>
 
-          <div class="teammate">
-            <div class="teammate-img">
-              <img src="./assets/img/teammate-img.png" alt="photo" />
-            </div>
-
-            <div class="teammate-info">
-              <h4 class="teammate-name">Чингис Оралбаев</h4>
-              <h5 class="teammate-position">Старший Юрист</h5>
-            </div>
-          </div>
-
-          <div class="teammate">
-            <div class="teammate-img">
-              <img src="./assets/img/teammate-img.png" alt="photo" />
+              <div class="teammate-info">
+                <h4 class="teammate-name">Чингис Оралбаев</h4>
+                <h5 class="teammate-position">Старший Юрист</h5>
+              </div>
             </div>
 
-            <div class="teammate-info">
-              <h4 class="teammate-name">Чингис Оралбаев</h4>
-              <h5 class="teammate-position">Старший Юрист</h5>
-            </div>
-          </div>
+            <div class="teammate swiper-slide">
+              <div class="teammate-img">
+                <img src="./assets/img/teammate-img.png" alt="photo" />
+              </div>
 
-          <div class="teammate">
-            <div class="teammate-img">
-              <img src="./assets/img/teammate-img.png" alt="photo" />
-            </div>
-
-            <div class="teammate-info">
-              <h4 class="teammate-name">Чингис Оралбаев</h4>
-              <h5 class="teammate-position">Старший Юрист</h5>
-            </div>
-          </div>
-
-          <div class="teammate">
-            <div class="teammate-img">
-              <img src="./assets/img/teammate-img.png" alt="photo" />
+              <div class="teammate-info">
+                <h4 class="teammate-name">Чингис Оралбаев</h4>
+                <h5 class="teammate-position">Старший Юрист</h5>
+              </div>
             </div>
 
-            <div class="teammate-info">
-              <h4 class="teammate-name">Чингис Оралбаев</h4>
-              <h5 class="teammate-position">Старший Юрист</h5>
+            <div class="teammate swiper-slide">
+              <div class="teammate-img">
+                <img src="./assets/img/teammate-img.png" alt="photo" />
+              </div>
+
+              <div class="teammate-info">
+                <h4 class="teammate-name">Чингис Оралбаев</h4>
+                <h5 class="teammate-position">Старший Юрист</h5>
+              </div>
+            </div>
+
+            <div class="teammate swiper-slide">
+              <div class="teammate-img">
+                <img src="./assets/img/teammate-img.png" alt="photo" />
+              </div>
+
+              <div class="teammate-info">
+                <h4 class="teammate-name">Чингис Оралбаев</h4>
+                <h5 class="teammate-position">Старший Юрист</h5>
+              </div>
+            </div>
+
+            <div class="teammate swiper-slide">
+              <div class="teammate-img">
+                <img src="./assets/img/teammate-img.png" alt="photo" />
+              </div>
+
+              <div class="teammate-info">
+                <h4 class="teammate-name">Чингис Оралбаев</h4>
+                <h5 class="teammate-position">Старший Юрист</h5>
+              </div>
+            </div>
+
+            <div class="teammate swiper-slide">
+              <div class="teammate-img">
+                <img src="./assets/img/teammate-img.png" alt="photo" />
+              </div>
+
+              <div class="teammate-info">
+                <h4 class="teammate-name">Чингис Оралбаев</h4>
+                <h5 class="teammate-position">Старший Юрист</h5>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
-      <section class="news-block">
+      <section class="news-block container">
         <div class="section-title">
           <img src="./assets/img/icons/arrow-left.svg" alt="arrow-left" />
           <h2 class="title">Новости</h2>
           <img src="./assets/img/icons/arrow-right.svg" alt="arrow right" />
         </div>
 
-        <div class="cases">
-          <div class="case-card">
-            <div class="case-info">
-              <span class="case-date"> 02.03.2024 </span>
+        <div class="swiper newsSwiper">
+          <div class="swiper-wrapper">
+            <div class="case-card swiper-slide">
+              <div class="case-info">
+                <span class="case-date"> 02.03.2024 </span>
 
-              <p class="case-text">
-                Кейс победит Транс. Вопрос взыскания задолженности
-              </p>
+                <p class="case-text">
+                  Кейс победит Транс. Вопрос взыскания задолженности
+                </p>
+              </div>
+
+              <div class="case-partner-img">
+                <img src="./assets/img/partner-logo.svg" alt="partner logo" />
+              </div>
             </div>
 
-            <div class="case-partner-img">
-              <img src="./assets/img/partner-logo.svg" alt="partner logo" />
-            </div>
-          </div>
+            <div class="case-card swiper-slide">
+              <div class="case-info">
+                <span class="case-date"> 02.03.2024 </span>
 
-          <div class="case-card">
-            <div class="case-info">
-              <span class="case-date"> 02.03.2024 </span>
+                <p class="case-text">
+                  Кейс победит Транс. Вопрос взыскания задолженности
+                </p>
+              </div>
 
-              <p class="case-text">
-                Кейс победит Транс. Вопрос взыскания задолженности
-              </p>
-            </div>
-
-            <div class="case-partner-img">
-              <img src="./assets/img/partner-logo.svg" alt="partner logo" />
-            </div>
-          </div>
-
-          <div class="case-card">
-            <div class="case-info">
-              <span class="case-date"> 02.03.2024 </span>
-
-              <p class="case-text">
-                Кейс победит Транс. Вопрос взыскания задолженности
-              </p>
+              <div class="case-partner-img">
+                <img src="./assets/img/partner-logo.svg" alt="partner logo" />
+              </div>
             </div>
 
-            <div class="case-partner-img">
-              <img src="./assets/img/partner-logo.svg" alt="partner logo" />
+            <div class="case-card swiper-slide">
+              <div class="case-info">
+                <span class="case-date"> 02.03.2024 </span>
+
+                <p class="case-text">
+                  Кейс победит Транс. Вопрос взыскания задолженности
+                </p>
+              </div>
+
+              <div class="case-partner-img">
+                <img src="./assets/img/partner-logo.svg" alt="partner logo" />
+              </div>
+            </div>
+
+            <div class="case-card swiper-slide">
+              <div class="case-info">
+                <span class="case-date"> 02.03.2024 </span>
+
+                <p class="case-text">
+                  Кейс победит Транс. Вопрос взыскания задолженности
+                </p>
+              </div>
+
+              <div class="case-partner-img">
+                <img src="./assets/img/partner-logo.svg" alt="partner logo" />
+              </div>
+            </div>
+
+            <div class="case-card swiper-slide">
+              <div class="case-info">
+                <span class="case-date"> 02.03.2024 </span>
+
+                <p class="case-text">
+                  Кейс победит Транс. Вопрос взыскания задолженности
+                </p>
+              </div>
+
+              <div class="case-partner-img">
+                <img src="./assets/img/partner-logo.svg" alt="partner logo" />
+              </div>
+            </div>
+
+            <div class="case-card swiper-slide">
+              <div class="case-info">
+                <span class="case-date"> 02.03.2024 </span>
+
+                <p class="case-text">
+                  Кейс победит Транс. Вопрос взыскания задолженности
+                </p>
+              </div>
+
+              <div class="case-partner-img">
+                <img src="./assets/img/partner-logo.svg" alt="partner logo" />
+              </div>
             </div>
           </div>
         </div>
       </section>
 
-      <section class="advantages-block">
+      <section class="advantages-block container">
         <h2 class="title title-underline">Преимущества</h2>
 
         <div class="advantages">
@@ -323,85 +461,137 @@
         </div>
       </section>
 
-      <section class="feedback-block">
+      <section class="feedback-block container">
         <h2 class="title title-underline">Отзывы</h2>
 
-        <div class="feedback-list">
-          <div class="feedback">
-            <div class="feedback-text">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et optio
-              explicabo doloribus nulla aliquid autem sunt eligendi! Accusamus,
-              molestiae officiis!
-            </div>
-
-            <div class="feedback-person">
-              <div class="person-img">
-                <img src="./assets/img/feedback-avatar1.png" alt="" />
+        <div class="swiper feedbackSwiper">
+          <div class="swiper-wrapper feedback-swiper-wrapper">
+            <div class="feedback swiper-slide">
+              <div class="feedback-text">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et
+                optio explicabo doloribus nulla aliquid autem sunt eligendi!
+                Accusamus, molestiae officiis!
               </div>
 
-              <p class="person-name">Johnny Doe</p>
-            </div>
-          </div>
+              <div class="feedback-person">
+                <div class="person-img">
+                  <img src="./assets/img/feedback-avatar1.png" alt="" />
+                </div>
 
-          <div class="feedback">
-            <div class="feedback-text">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et optio
-              explicabo doloribus nulla aliquid autem sunt eligendi! Accusamus,
-              molestiae officiis!
+                <p class="person-name">Johnny Doe</p>
+              </div>
             </div>
 
-            <div class="feedback-person">
-              <div class="person-img">
-                <img src="./assets/img/feedback-avatar2.png" alt="" />
+            <div class="feedback swiper-slide">
+              <div class="feedback-text">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et
+                optio explicabo doloribus nulla aliquid autem sunt eligendi!
+                Accusamus, molestiae officiis!
               </div>
 
-              <p class="person-name">Ellie James</p>
-            </div>
-          </div>
+              <div class="feedback-person">
+                <div class="person-img">
+                  <img src="./assets/img/feedback-avatar2.png" alt="" />
+                </div>
 
-          <div class="feedback">
-            <div class="feedback-text">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et optio
-              explicabo doloribus nulla aliquid autem sunt eligendi! Accusamus,
-              molestiae officiis!
+                <p class="person-name">Ellie James</p>
+              </div>
             </div>
 
-            <div class="feedback-person">
-              <div class="person-img">
-                <img src="./assets/img/feedback-avatar3.png" alt="" />
+            <div class="feedback swiper-slide">
+              <div class="feedback-text">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et
+                optio explicabo doloribus nulla aliquid autem sunt eligendi!
+                Accusamus, molestiae officiis!
               </div>
 
-              <p class="person-name">Myne Barack</p>
+              <div class="feedback-person">
+                <div class="person-img">
+                  <img src="./assets/img/feedback-avatar3.png" alt="" />
+                </div>
+
+                <p class="person-name">Myne Barack</p>
+              </div>
+            </div>
+
+            <div class="feedback swiper-slide">
+              <div class="feedback-text">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et
+                optio explicabo doloribus nulla aliquid autem sunt eligendi!
+                Accusamus, molestiae officiis!
+              </div>
+
+              <div class="feedback-person">
+                <div class="person-img">
+                  <img src="./assets/img/feedback-avatar3.png" alt="" />
+                </div>
+
+                <p class="person-name">Myne Barack</p>
+              </div>
+            </div>
+
+            <div class="feedback swiper-slide">
+              <div class="feedback-text">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et
+                optio explicabo doloribus nulla aliquid autem sunt eligendi!
+                Accusamus, molestiae officiis!
+              </div>
+
+              <div class="feedback-person">
+                <div class="person-img">
+                  <img src="./assets/img/feedback-avatar3.png" alt="" />
+                </div>
+
+                <p class="person-name">Myne Barack</p>
+              </div>
+            </div>
+
+            <div class="feedback swiper-slide">
+              <div class="feedback-text">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et
+                optio explicabo doloribus nulla aliquid autem sunt eligendi!
+                Accusamus, molestiae officiis!
+              </div>
+
+              <div class="feedback-person">
+                <div class="person-img">
+                  <img src="./assets/img/feedback-avatar3.png" alt="" />
+                </div>
+
+                <p class="person-name">Myne Barack</p>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
-      <section class="partners-block">
+      <section class="partners-block container">
         <h2 class="title title-underline">Наши партнёры</h2>
 
-        <ul class="partners-list">
-          <li class="partner-img">
-            <img src="./assets/img/icons/partner1.png" alt="partner logo" />
-          </li>
-          <li class="partner-img">
-            <img src="./assets/img/icons/partner2.png" alt="partner logo" />
-          </li>
-          <li class="partner-img">
-            <img src="./assets/img/icons/partner3.png" alt="partner logo" />
-          </li>
-          <li class="partner-img">
-            <img src="./assets/img/icons/partner4.png" alt="partner logo" />
-          </li>
-          <li class="partner-img">
-            <img src="./assets/img/icons/partner5.png" alt="partner logo" />
-          </li>
-          <li class="partner-img">
-            <img src="./assets/img/icons/partner6.png" alt="partner logo" />
-          </li>
-          <li class="partner-img">
-            <img src="./assets/img/icons/partner7.png" alt="partner logo" />
-          </li>
+        <ul class="swiper partnersSwiper">
+          <div class="swiper-wrapper">
+            <li class="partner-img swiper-slide">
+              <img src="./assets/img/icons/partner1.png" alt="partner logo" />
+            </li>
+            <li class="partner-img swiper-slide">
+              <img src="./assets/img/icons/partner2.png" alt="partner logo" />
+            </li>
+            <li class="partner-img swiper-slide">
+              <img src="./assets/img/icons/partner3.png" alt="partner logo" />
+            </li>
+            <li class="partner-img swiper-slide">
+              <img src="./assets/img/icons/partner4.png" alt="partner logo" />
+            </li>
+            <li class="partner-img swiper-slide">
+              <img src="./assets/img/icons/partner5.png" alt="partner logo" />
+            </li>
+            <li class="partner-img swiper-slide">
+              <img src="./assets/img/icons/partner6.png" alt="partner logo" />
+            </li>
+            <li class="partner-img swiper-slide">
+              <img src="./assets/img/icons/partner7.png" alt="partner logo" />
+            </li>
+          </div>
         </ul>
       </section>
 
@@ -496,6 +686,7 @@
       </footer>
     </div>
 
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="./scripts/index.js"></script>
   </body>
 </html>

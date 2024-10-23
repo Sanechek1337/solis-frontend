@@ -1,13 +1,162 @@
-// Получаем все вкладки
 const tabs = document.querySelectorAll(".tab");
 
-// Добавляем обработчик клика для каждой вкладки
 tabs.forEach((tab) => {
   tab.addEventListener("click", () => {
-    // Удаляем класс active у всех вкладок
     tabs.forEach((t) => t.classList.remove("active"));
 
-    // Добавляем класс active к нажатой вкладке
     tab.classList.add("active");
   });
+});
+
+const casesSwiper = new Swiper(".casesSwiper", {
+  slidesPerView: 1,
+  spaceBetween: 30,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+  breakpoints: {
+    640: {
+      slidesPerView: 1,
+      spaceBetween: 20,
+    },
+    768: {
+      slidesPerView: 2,
+      spaceBetween: 40,
+    },
+    1024: {
+      slidesPerView: 3,
+      spaceBetween: 50,
+    },
+  },
+});
+
+const servicesSwiper = new Swiper(".servicesSwiper", {
+  slidesPerView: 1,
+  spaceBetween: 30,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+  breakpoints: {
+    640: {
+      slidesPerView: 1,
+      spaceBetween: 20,
+    },
+    768: {
+      slidesPerView: 2,
+      spaceBetween: 30,
+    },
+    1024: {
+      slidesPerView: 2,
+      spaceBetween: 40,
+    },
+    1440: {
+      slidesPerView: 3,
+      spaceBetween: 50,
+    },
+  },
+});
+
+const teammatesSwiper = new Swiper(".teammatesSwiper", {
+  slidesPerView: 2,
+  spaceBetween: 30,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+  breakpoints: {
+    320: {
+      slidesPerView: 1,
+    },
+    500: {
+      slidesPerView: 2,
+      spaceBetween: 20,
+    },
+    768: {
+      slidesPerView: 3,
+      spaceBetween: 40,
+    },
+    1024: {
+      slidesPerView: 4,
+      spaceBetween: 50,
+    },
+    1440: {
+      slidesPerView: 5,
+      spaceBetween: 50,
+    },
+  },
+});
+
+const newsSwiper = new Swiper(".newsSwiper", {
+  slidesPerView: 1,
+  spaceBetween: 30,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+  breakpoints: {
+    640: {
+      slidesPerView: 1,
+      spaceBetween: 20,
+    },
+    768: {
+      slidesPerView: 2,
+      spaceBetween: 40,
+    },
+    1024: {
+      slidesPerView: 3,
+      spaceBetween: 50,
+    },
+  },
+});
+
+const feedbackSwiper = new Swiper(".feedbackSwiper", {
+  slidesPerView: 1,
+  spaceBetween: 30,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+  breakpoints: {
+    640: {
+      slidesPerView: 1,
+      spaceBetween: 20,
+    },
+    768: {
+      slidesPerView: 1,
+      spaceBetween: 40,
+    },
+    1024: {
+      slidesPerView: 3,
+      spaceBetween: 20,
+    },
+  },
+});
+
+const partnersSwiper = new Swiper(".partnersSwiper", {
+  slidesPerView: 2,
+  spaceBetween: 30,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+  breakpoints: {
+    425: {
+      slidesPerView: 2,
+      spaceBetween: 40,
+    },
+    768: {
+      slidesPerView: 4,
+      spaceBetween: 50,
+    },
+    1024: {
+      slidesPerView: 4,
+      spaceBetween: 40,
+    },
+    1440: {
+      slidesPerView: 6,
+      spaceBetween: 50,
+    },
+  },
 });
