@@ -207,7 +207,7 @@ main {
 .case-card {
   max-width: 480px;
   padding: 36px 20px 50px;
-  display: flex !important;
+  display: flex;
   justify-content: space-between;
   align-items: center;
   background: linear-gradient(240deg, var(--gray-color) 50%, var(--yellow-color) 50%);
@@ -236,10 +236,6 @@ main {
   height: 100%;
   object-fit: contain;
   object-position: center;
-}
-
-.wrap {
-  overflow: hidden;
 }
 
 .service {
@@ -385,6 +381,7 @@ main {
   content: "„";
   font-size: 60px;
   color: #381ddb;
+  line-height: 0;
 }
 
 .feedback-person {
@@ -395,8 +392,8 @@ main {
 }
 
 .person-img {
-  max-width: 120px;
-  max-height: 120px;
+  max-width: 80px;
+  max-height: 80px;
   overflow: hidden;
   border-radius: 50%;
 }
@@ -420,6 +417,18 @@ main {
   margin-top: 40px;
   display: flex;
   gap: 20px;
+}
+
+.partner-img {
+  margin: auto;
+}
+
+.partner-img img {
+  display: block;
+  max-width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
 }
 
 .application-block-full {
