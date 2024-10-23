@@ -46,6 +46,7 @@ body {
 
 .container {
   max-width: 1280px;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -192,10 +193,7 @@ main {
   width: 100%;
 }
 
-.cases,
-.services,
-.advantages,
-.feedback-list {
+.advantages {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -217,9 +215,6 @@ main {
 
 .case-info {
   max-width: 200px;
-}
-
-.case-date {
 }
 
 .case-text {
@@ -551,8 +546,100 @@ main {
 }
 
 /* swiper */
-
 .swiper {
   width: 100%;
   margin-top: 60px;
+}
+/* swiper */
+
+@media (max-width: 1024px) {
+  .container {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .footer-top {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .underfooter {
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .contacts-block {
+    display: none;
+  }
+
+  .nav-list {
+    display: none;
+  }
+}
+
+@media (max-width: 640px) {
+  .main-title {
+    font-size: 70px;
+  }
+
+  .footer-right {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 425px) {
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .title {
+    font-size: 30px;
+  }
+
+  .main-title {
+    font-size: 50px;
+  }
+
+  .subtitle {
+    font-size: 20px;
+  }
+
+  .main-button {
+    padding: 20px;
+    font-size: 14px;
+  }
+
+  .advantage {
+    gap: 10px;
+  }
+
+  .advantage-icon {
+    width: 60px;
+    height: 60px;
+    padding: 8px;
+    flex-shrink: 0;
+  }
+
+  .advantage-text {
+    font-size: 14px;
+  }
+
+  .application-subtitle {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .application-button {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 375px) {
+  /* .advantage-icon {
+    width: 40px;
+    height: 40px;
+  } */
 }
