@@ -51,17 +51,17 @@
 
       <div class="header-block-bg">
         <div class="header-block container">
-          <a href="">
+          <a class="header-logo" href="#">
             <img src="./assets/img/logo.svg" alt="solis partners logo" />
           </a>
 
           <nav>
             <ul class="nav-list">
-              <li><a class="nav-link" href="">О нас</a></li>
-              <li><a class="nav-link" href="">Команда</a></li>
-              <li><a class="nav-link" href="">Новости</a></li>
-              <li><a class="nav-link" href="">Услуги</a></li>
-              <li><a class="nav-link" href="">Отзывы</a></li>
+              <li><a class="nav-link" href="#advatages">О нас</a></li>
+              <li><a class="nav-link" href="#team">Команда</a></li>
+              <li><a class="nav-link" href="#news">Новости</a></li>
+              <li><a class="nav-link" href="#services">Услуги</a></li>
+              <li><a class="nav-link" href="#feedback">Отзывы</a></li>
             </ul>
           </nav>
         </div>
@@ -167,7 +167,7 @@
         </div>
       </section>
 
-      <section class="services-block container">
+      <section class="services-block container" id="services">
         <div class="section-title">
           <img src="./assets/img/icons/arrow-left.svg" alt="arrow-left" />
           <h2 class="title">Услуги</h2>
@@ -239,7 +239,7 @@
         </div>
       </section>
 
-      <section class="team-block container">
+      <section class="team-block container" id="team">
         <h2 class="title title-underline">Наша команда</h2>
 
         <div class="tab-group">
@@ -329,7 +329,7 @@
         </div>
       </section>
 
-      <section class="news-block container">
+      <section class="news-block container" id="news">
         <div class="section-title">
           <img src="./assets/img/icons/arrow-left.svg" alt="arrow-left" />
           <h2 class="title">Новости</h2>
@@ -425,7 +425,7 @@
         </div>
       </section>
 
-      <section class="advantages-block container">
+      <section class="advantages-block container" id="advatages">
         <h2 class="title title-underline">Преимущества</h2>
 
         <div class="advantages">
@@ -461,7 +461,7 @@
         </div>
       </section>
 
-      <section class="feedback-block container">
+      <section class="feedback-block container" id="feedback">
         <h2 class="title title-underline">Отзывы</h2>
 
         <div class="swiper feedbackSwiper">
@@ -627,9 +627,9 @@
       <footer class="footer container">
         <div class="footer-top">
           <div class="footer-left">
-            <div class="footer-logo">
+            <a class="footer-logo" href="#">
               <img src="./assets/img/logo-footer.png" alt="company logo" />
-            </div>
+            </a>
 
             <h3 class="footer-decription">
               SOLIS Law Firm <br />
@@ -642,11 +642,21 @@
               <h4 class="footer-title">Навигация</h4>
 
               <ul class="footer-list footer-navigation-list">
-                <li class="footer-navigation-elem"><a href="">О нас</a></li>
-                <li class="footer-navigation-elem"><a href="">Команда</a></li>
-                <li class="footer-navigation-elem"><a href="">Новости</a></li>
-                <li class="footer-navigation-elem"><a href="">Услуги</a></li>
-                <li class="footer-navigation-elem"><a href="">Отзывы</a></li>
+                <li class="footer-navigation-elem">
+                  <a href="#advatages">О нас</a>
+                </li>
+                <li class="footer-navigation-elem">
+                  <a href="#team">Команда</a>
+                </li>
+                <li class="footer-navigation-elem">
+                  <a href="#news">Новости</a>
+                </li>
+                <li class="footer-navigation-elem">
+                  <a href="#services">Услуги</a>
+                </li>
+                <li class="footer-navigation-elem">
+                  <a href="#feedback">Отзывы</a>
+                </li>
               </ul>
             </div>
 
@@ -654,8 +664,10 @@
               <h4 class="footer-title">Документы</h4>
 
               <ul class="footer-list footer-docs-list">
-                <li><a href="">Шаблоны документов</a></li>
-                <li><a href="">Заявление об ограничении ответственности</a></li>
+                <li><a href="#">Шаблоны документов</a></li>
+                <li>
+                  <a href="#">Заявление об ограничении ответственности</a>
+                </li>
               </ul>
             </div>
 
